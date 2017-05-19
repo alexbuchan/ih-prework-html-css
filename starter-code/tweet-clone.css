@@ -1,0 +1,117 @@
+/*
+body
+- background:        rgb(244, 248, 249)
+
+tweet
+- background:        rgb(255, 255, 255)
+- border:            rgb(225, 232, 237)
+- user name:         rgb(0, 0, 0)
+- user account:      rgb(104, 109, 129)
+- text:              rgb(0, 0, 0)
+- date:              rgb(101, 116, 127)
+- bottom text color: rgb(105, 120, 130)
+- follow button:     rgb(85, 172, 238)
+```
+
+- Finally, the font is "Helvetica".
+*/
+
+body {
+  background: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+.tweetDiv {
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(225, 232, 237);
+  border-radius: 10px;
+  margin: 100px;
+  padding: 40px;
+  width: 916px;
+  height: 240px;
+}
+
+.info-table {
+  position: relative;
+  left: 100px;
+  top: -85px;
+}
+
+#profile-image {
+  width: 80px;
+}
+
+.top-account-info {
+  display: inline;
+  vertical-align: top;
+}
+
+#user-name {
+  margin-top: 20px;
+  vertical-align: none;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+#user-account {
+  display: inline;
+  color: rgb(104, 109, 129);
+  font-size: 25px;
+  font-weight:normal;
+}
+
+.twitter-follow-logo {
+    border: 2px solid rgb(85, 172, 238);
+    border-radius: 8px;
+    padding: 20px;
+    display: inline;
+    position: relative;
+    top: -140px;
+    left: 730px;
+    padding: 20px;
+    padding-bottom: 23px;
+    padding-left: 26px;
+    padding-right: 28px;
+}
+
+#twitter-logo {
+  display: inline;
+  vertical-align: middle;
+}
+
+#twitter-follow {
+  display: inline;
+  vertical-align: middle;
+  font-size: 28px;
+  margin-left: 4px;
+  color: rgb(85, 172, 238);
+}
+
+#the-tweet {
+  font-size: 35px;
+  margin: 0;
+  position: relative;
+  top: -90px;
+  color: rgb(0, 0, 0);
+}
+
+#date-of-tweet {
+  color: rgb(101, 116, 127);
+  font-size: 28px;
+  margin: 0;
+  position: relative;
+  top: -80px;
+}
+
+.tweet-feedback-info {
+  display: inline;
+  vertical-align: top;
+  position: relative;
+  top: -25px;
+  font-size: 27px;
+  color: rgb(105, 120, 130);
+}
+
+.spaced {
+  margin-right: 26px;
+}
