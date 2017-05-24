@@ -51,12 +51,17 @@ body {
   vertical-align: none;
   color: rgb(0, 0, 0);
   font-size: 30px;
+  margin-left: 2px;
+}
+
+#account-logo {
+  margin-left: 10px;
 }
 
 #user-account {
   display: inline;
   color: rgb(104, 109, 129);
-  font-size: 25px;
+  font-size: 27px;
   font-weight:normal;
 }
 
